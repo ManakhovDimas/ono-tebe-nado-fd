@@ -344,7 +344,7 @@ a.link-look-more {
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
+  height: 180px;
   width: 100%;
   margin-top: 160px;
 }
