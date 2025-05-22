@@ -1,1 +1,1 @@
-git@github.com:ManakhovDimas/ono-tebe-nado-fd.git
+https://github.com/ManakhovDimas/ono-tebe-nado-fd
