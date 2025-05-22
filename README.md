@@ -1,0 +1,1 @@
+git@github.com:ManakhovDimas/ono-tebe-nado-fd.git
