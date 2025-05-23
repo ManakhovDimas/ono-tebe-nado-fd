@@ -5,6 +5,7 @@ header {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   height: 293px;
+  max-width:100%;
 }
 nav {
   width: 391.48px;
@@ -57,14 +58,16 @@ address ul li a {
   letter-spacing: 0;
 }
 
+
 /* блок cover */
 .cover {
-  margin: 0 auto;
+  
   position: relative;
-  width: 100%;
+  max-width: 1100px;
   height: 757px;
   display: flex;
-  box-sizing: border-box;
+  flex-direction: column-reverse;
+
 }
 
 .overlay {
@@ -79,10 +82,11 @@ address ul li a {
 .background-cover {
   background-image: url(../images/cover.jpg);
   height: 757px;
-  width: 1100px;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
   z-index: 0;
   position: absolute;
 }
@@ -92,7 +96,6 @@ address ul li a {
   font-weight: 700;
   font-size: 100px;
   line-height: 114.99999999999999%;
-
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
   position: absolute;
@@ -128,8 +131,10 @@ address ul li a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 656px;
+  margin-bottom: 50px;
   margin-left: 50px;
+ 
+  
   width: 1000px;
   height: 51px;
 }
@@ -167,7 +172,7 @@ address ul li a {
 
 .lots {
   height: 100%;
-  width: 100%;
+  max-width: 1100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -194,8 +199,7 @@ address ul li a {
 .lots ul {
   width: 1052px;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -205,15 +209,40 @@ address ul li a {
   min-height: 596px;
   width: 334px;
   display: flex;
-  overflow: hidden;
+  
   text-decoration: none;
   position: relative;
   justify-content: center;
 }
 
+.card-type-film{
+background-image: url(../images/card-lot-01.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: auto;
+height: 100%;
+}
+.card-type-book{
+background-image: url(../images/card-lot-02.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: auto;
+height: 100%;
+}
+.card-type-picture{
+background-image: url(../images/card-lot-03.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: auto;
+height: 100%;
+}
+
 .lots img {
   height: 100%;
-  width: 560px;
+  width: auto;
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
@@ -344,7 +373,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   height: 180px;
-  width: 100%;
+  max-width: 100%;
   margin-top: 160px;
 }
 

@@ -5,13 +5,15 @@
 }
 
 body {
-  max-width: 1098px;
-  width: 1098px;
+  
+  width: 1100px;
+  
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   font-weight: normal;
   height: 100%;
-  overflow-x: hidden;
+  
+  
 }
 
 h1,
