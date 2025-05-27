@@ -45,8 +45,8 @@
   width: 148px;
   height: 105px;
 }
-.address{
- /* добавил класс*/
+.address {
+  /* добавил класс*/
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -57,12 +57,9 @@
   line-height: 24.3px;
   letter-spacing: 0;
   list-style: none;
-
-
 }
 
 .header-address {
-
   padding-left: 187px;
   padding-bottom: 6px;
 }
@@ -190,11 +187,11 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
- 
 }
 
-.card-link-decoration{ /* убрал подчеркивание параграфа*/
-text-decoration: none;
+.card-link-decoration {
+  /* убрал подчеркивание параграфа*/
+  text-decoration: none;
 }
 
 .card-container-item {
@@ -227,7 +224,6 @@ text-decoration: none;
 .card-paragraph {
   position: relative;
   z-index: 2;
- 
 }
 
 .card-title {
@@ -255,8 +251,6 @@ text-decoration: none;
   margin-bottom: 48px;
   margin-left: 40px;
   margin-right: 40px;
-  
-  
 }
 
 a.link-look-more {
@@ -345,9 +339,7 @@ footer {
 }
 
 .footer-address {
- 
   margin-left: 51px;
- 
 }
 
 .footer-nav-menu {
