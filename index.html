@@ -30,7 +30,7 @@
           src="./images/logo-black.svg"
           alt="Черное лого"
       /></a>
-      <address class="header-address">
+      <address class="address header-address"> <!-- добавил класс address-->
         <a href="tel:+99995555555" class="text-decoration">+9 999 555 5555</a>
 
         <a href="mailto:info@sobaka.ge" class="text-decoration"
@@ -64,9 +64,9 @@
       <section class="lots" id="lots">
         <h2 class="lots-title">Лоты</h2>
 
-        <ul class="card-container">
+        <ul class="card-container"> <!-- добавил отступы -->
           <li class="card-container-item">
-            <a href="#0">
+            <a class="card-link-decoration" href="#0"> <!-- убрал подчеркивание у параграфов карточек card-link-->
               <article class="card card-type-film">
                 <div class="overlay"></div>
                 <h3 class="card-title">
@@ -81,7 +81,7 @@
             </a>
           </li>
           <li class="card-container-item">
-            <a href="#0">
+            <a class="card-link-decoration" href="#0">
               <article class="card card-type-book">
                 <div class="overlay"></div>
                 <h3 class="card-title">
@@ -100,7 +100,7 @@
             </a>
           </li>
           <li class="card-container-item">
-            <a href="#0">
+            <a class="card-link-decoration" href="#0">
               <article class="card-type-picture card">
                 <div class="overlay"></div>
                 <h3 class="card-title">
@@ -116,6 +116,7 @@
               </article>
             </a>
           </li>
+          
         </ul>
 
         <a href="#0" class="link-look-more">посмотреть больше</a>
@@ -125,9 +126,9 @@
           <div class="black-circle">
             <img
               src="./images/logo-white.svg"
-              alt="Logo white"
+              alt="Белое лого" 
               class="logo-white"
-            />
+            /> <!-- переименовал alt-->
           </div>
         </div>
         <div class="about-column">
@@ -151,7 +152,7 @@
       </section>
     </main>
     <footer>
-      <address class="footer-address">
+      <address class="address footer-address"> <!-- добавил класс address-->
         <a href="tel:+99995555555" class="text-decoration">+9 999 555 5555</a>
 
         <a href="mailto:info@sobaka.ge" class="text-decoration"
@@ -163,26 +164,28 @@
           Амстердам
         </p>
       </address>
-      <ul class="footer-nav-menu links-list-item_no-bullit">
+      <nav> <!-- добавил навигацию-->
+       <ul class="footer-nav-menu links-list-item_no-bullit">
         <li><a href="#main" class="link-active">главная</a></li>
         <li><a href="#lots" class="text-decoration">посмотреть лоты</a></li>
         <li><a href="#about" class="text-decoration">об аукционе</a></li>
-      </ul>
+       </ul>
+      </nav>
       <ul class="socials links-list-item_no-bullit">
         <li>
           <a href="https://www.youtube.com"
-            ><img src="images/yt.svg" alt="Youtube"
-          /></a>
+            ><img src="images/yt.svg" alt="Ютюб"
+          /></a> <!-- переименовал alt-->
         </li>
         <li>
           <a href="https://vk.com"
-            ><img src="images/vk.svg" alt="Vkontakte"
-          /></a>
+            ><img src="images/vk.svg" alt="Вконтакте"
+          /></a> <!-- переименовал alt-->
         </li>
         <li>
           <a href="https://ru.pinterest.com"
-            ><img src="images/pinterest.svg" alt="Pinterest"
-          /></a>
+            ><img src="images/pinterest.svg" alt="Пинтерест"
+          /></a> <!-- переименовал alt-->
         </li>
       </ul>
     </footer>
