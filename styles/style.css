@@ -181,12 +181,13 @@
 
 .card-container {
   column-gap: 25px;
-  row-gap: 50px; /*добавил отступы между карточками*/
+  row-gap: 25px; /*изменил отступы между карточками*/
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 auto;
+  padding-left: 24px; /* поставил внутренние отступы*/
+  padding-right: 24px;
 }
 
 .card-link-decoration {
